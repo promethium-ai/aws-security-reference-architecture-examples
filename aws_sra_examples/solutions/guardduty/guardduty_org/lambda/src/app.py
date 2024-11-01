@@ -7,7 +7,7 @@ Configures GuardDuty in all provided regions:
 
 Version: 1.1
 
-'guardduty_org' solution in the repo, https://github.com/aws-samples/aws-security-reference-architecture-examples
+'guardduty_org' solution in the repo, https://github.com/promethium-ai/aws-security-reference-architecture-examples
 
 Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 SPDX-License-Identifier: MIT-0

@@ -5,7 +5,7 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description:
   This template creates an AWS Organizations Config Conformance Pack in the Control Tower Audit account. - 'config_conformance_pack_org' solution in
-  the repo, https://github.com/aws-samples/aws-security-reference-architecture-examples (sra-1ssgnse3o)
+  the repo, https://github.com/promethium-ai/aws-security-reference-architecture-examples (sra-1ssgnse3o)
 
 Metadata:
   SRA:
@@ -234,12 +234,12 @@ Resources:
         - cRegisterDelegatedAdmin
         - !Sub [
             "${pSRASolutionVersion} - This template creates an AWS Organizations Config Conformance Pack in the Control Tower Audit account. -
-            'config_conformance_pack_org' solution in the repo, https://github.com/aws-samples/aws-security-reference-architecture-examples. Delegated
+            'config_conformance_pack_org' solution in the repo, https://github.com/promethium-ai/aws-security-reference-architecture-examples. Delegated
             Admin Solution - ${SolutionName}",
             SolutionName: !GetAtt rCommonRegisterDelegatedAdminStack.Outputs.oSRASolutionName,
           ]
         - !Sub ${pSRASolutionVersion} - This template creates an AWS Organizations Config Conformance Pack in the Control Tower Audit account. -
-          'config_conformance_pack_org' solution in repo, https://github.com/aws-samples/aws-security-reference-architecture-examples.
+          'config_conformance_pack_org' solution in repo, https://github.com/promethium-ai/aws-security-reference-architecture-examples.
       ExecutionRoleName: !Ref pStackExecutionRole
       ManagedExecution:
         Active: true

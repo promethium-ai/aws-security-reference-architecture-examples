@@ -5,7 +5,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 Description:
   Creates the SRA CodeBuild Project that deploys the staging, common prerequisites, and other components of the SRA. - 'easy_setup' solution in the
-  repo, https://github.com/aws-samples/aws-security-reference-architecture-examples (sra-1ssgnse7p)
+  repo, https://github.com/promethium-ai/aws-security-reference-architecture-examples (sra-1ssgnse7p)gh 
 Metadata:
   SRA:
     Version: 1.0
@@ -711,7 +711,7 @@ Metadata:
 
 Parameters:
   pRepoURL:
-    Default: https://github.com/aws-samples/aws-security-reference-architecture-examples.git
+    Default: https://github.com/promethium-ai/aws-security-reference-architecture-examples.git
     Description: SRA Code Library Repository URL
     Type: String
   pRepoBranch:

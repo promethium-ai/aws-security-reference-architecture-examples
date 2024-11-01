@@ -1,7 +1,7 @@
 """This script performs operations to enable, configure, and disable config.
 
 Version: 1.0
-'config-org' solution in the repo, https://github.com/aws-samples/aws-security-reference-architecture-examples
+'config-org' solution in the repo, https://github.com/promethium-ai/aws-security-reference-architecture-examples
 
 Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 SPDX-License-Identifier: MIT-0

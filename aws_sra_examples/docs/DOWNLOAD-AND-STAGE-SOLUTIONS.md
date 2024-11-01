@@ -10,7 +10,7 @@ Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. SPDX-License-
 2. [Download the SRA examples code from GitHub](#download-the-sra-examples-code-from-github).
 
    ```bash
-   git clone https://github.com/aws-samples/aws-security-reference-architecture-examples.git $HOME/aws-sra-examples
+   git clone https://github.com/promethium-ai/aws-security-reference-architecture-examples.git $HOME/aws-sra-examples
    cd $HOME/aws-sra-examples
    ```
 
@@ -58,7 +58,7 @@ Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. SPDX-License-
 Clone the AWS SRA GitHub repository to your local machine `$HOME/aws-sra-examples` directory
 
 ```bash
-git clone https://github.com/aws-samples/aws-security-reference-architecture-examples.git $HOME/aws-sra-examples
+git clone https://github.com/promethium-ai/aws-security-reference-architecture-examples.git $HOME/aws-sra-examples
 cd $HOME/aws-sra-examples
 ```
 
@@ -75,7 +75,7 @@ cd $HOME/aws-sra-examples
 
     ```bash
     cd $HOME && rm -rf aws-sra-examples
-    git clone https://github.com/aws-samples/aws-security-reference-architecture-examples.git $HOME/aws-sra-examples
+    git clone https://github.com/promethium-ai/aws-security-reference-architecture-examples.git $HOME/aws-sra-examples
     cd $HOME/aws-sra-examples
     ```
 

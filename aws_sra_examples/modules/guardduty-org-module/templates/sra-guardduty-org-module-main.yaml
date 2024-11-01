@@ -160,12 +160,12 @@ Parameters:
       SRA CodeBuild project name
     Type: String
   pTemplateURL:
-    Default: https://raw.githubusercontent.com/aws-samples/aws-security-reference-architecture-examples/v3.0.4/aws_sra_examples/modules/guardduty-org-module/templates/sra-guardduty-org-solution.yaml
+    Default: https://raw.githubusercontent.com/promethium-ai/aws-security-reference-architecture-examples/v3.0.4/aws_sra_examples/modules/guardduty-org-module/templates/sra-guardduty-org-solution.yaml
     Description:
       SRA module solution template URL
     Type: String
   pRepoURL:
-    Default: https://github.com/aws-samples/aws-security-reference-architecture-examples.git
+    Default: https://github.com/promethium-ai/aws-security-reference-architecture-examples.git
     Description:
       SRA Code Library Repository URL
     Type: String

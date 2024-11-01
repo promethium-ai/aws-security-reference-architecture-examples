@@ -1,7 +1,7 @@
 """This script performs operations to enable, configure, and disable shield.
 
 Version: 1.0
-'shield_org' solution in the repo, https://github.com/aws-samples/aws-security-reference-architecture-examples
+'shield_org' solution in the repo, https://github.com/promethium-ai/aws-security-reference-architecture-examples
 
 Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 SPDX-License-Identifier: MIT-0

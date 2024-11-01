@@ -141,7 +141,7 @@ Metadata:
 
 Parameters:
   pRepoURL:
-    Default: https://github.com/aws-samples/aws-security-reference-architecture-examples.git
+    Default: https://github.com/promethium-ai/aws-security-reference-architecture-examples.git
     Description:
       SRA Code Library Repository URL
     Type: String

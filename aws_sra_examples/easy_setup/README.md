@@ -31,7 +31,7 @@ The first steps in the easy setup of the AWS SRA code library is focused on the 
 
 #### Deploying the Common Prerequisite Solution<!-- omit in toc -->
 
-The next steps within the easy setup of the AWS SRA code library focuses on deploying the common prerequisites solution which is provides the base resources shared and used by each of the core solutions that are provided through the AWS SRA code library (e.g. the GuardDuty AWS SRA solution, the Security Hub AWS SRA solution, etc.)  See ![Common Prerequisite](https://github.com/aws-samples/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/common/common_prerequisites) for more information
+The next steps within the easy setup of the AWS SRA code library focuses on deploying the common prerequisites solution which is provides the base resources shared and used by each of the core solutions that are provided through the AWS SRA code library (e.g. the GuardDuty AWS SRA solution, the Security Hub AWS SRA solution, etc.)  See ![Common Prerequisite](https://github.com/promethium-ai/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/common/common_prerequisites) for more information
 
 #### Deploying AWS SRA Solutions<!-- omit in toc -->
 
@@ -57,7 +57,7 @@ Download the `sra-easy-setup.yaml` template by either navigating to it in the AW
 ##### Example Download Command<!-- omit in toc -->
 
 ```bash
-curl -LJO https://raw.githubusercontent.com/aws-samples/aws-security-reference-architecture-examples/main/aws_sra_examples/easy_setup/templates/sra-easy-setup.yaml
+curl -LJO https://raw.githubusercontent.com/promethium-ai/aws-security-reference-architecture-examples/main/aws_sra_examples/easy_setup/templates/sra-easy-setup.yaml
 ```
 
 #### II. (Option A) Deployment using the AWS Console
@@ -179,7 +179,7 @@ Download the `sra-common-prerequisites-control-tower-execution-role.yaml` AWS SR
 ###### Example AWS SRA AWS Control Tower Execution Role Template Download Command<!-- omit in toc -->
 
 ```bash
-curl -LJO https://raw.githubusercontent.com/aws-samples/aws-security-reference-architecture-examples/main/aws_sra_examples/solutions/common/common_prerequisites/templates/sra-common-prerequisites-control-tower-execution-role.yaml
+curl -LJO https://raw.githubusercontent.com/promethium-ai/aws-security-reference-architecture-examples/main/aws_sra_examples/solutions/common/common_prerequisites/templates/sra-common-prerequisites-control-tower-execution-role.yaml
 ```
 
 ##### Step 2 - Download the AWS SRA Easy Setup Template<!-- omit in toc -->
@@ -189,7 +189,7 @@ Download the `sra-easy-setup.yaml` template by either navigating to it in the AW
 ###### Example AWS SRA Easy Setup Template Download Command<!-- omit in toc -->
 
 ```bash
-curl -LJO https://raw.githubusercontent.com/aws-samples/aws-security-reference-architecture-examples/main/aws_sra_examples/easy_setup/templates/sra-easy-setup.yaml
+curl -LJO https://raw.githubusercontent.com/promethium-ai/aws-security-reference-architecture-examples/main/aws_sra_examples/easy_setup/templates/sra-easy-setup.yaml
 ```
 
 ##### Step 3 - Download the AWS SRA Easy Setup Manifest<!-- omit in toc -->
@@ -207,7 +207,7 @@ You must leave the `pCreateAWSControlTowerExecutionRole` parameter set to `false
 ###### Example AWS SRA Easy Setup Manifest Download Command<!-- omit in toc -->
 
 ```bash
-curl -LJO https://raw.githubusercontent.com/aws-samples/aws-security-reference-architecture-examples/main/aws_sra_examples/easy_setup/customizations_for_aws_control_tower/manifest.yaml
+curl -LJO https://raw.githubusercontent.com/promethium-ai/aws-security-reference-architecture-examples/main/aws_sra_examples/easy_setup/customizations_for_aws_control_tower/manifest.yaml
 ```
 
 #### III. Deploy AWSControlTowerExecutionRole In Management Account
@@ -273,7 +273,7 @@ The `sra-clone-library`  AWS Lambda function perform the `start` operation for t
 
 #### 5 - AWS CloudFormation Deploys Common Prerequisite 1st Solution Stack<!-- omit in toc -->
 
-The AWS SRA code library common prerequisite `sra-common-prerequisites-staging-s3-bucket` CloudFormation stack is launched.  See ![Common Prerequisite](https://github.com/aws-samples/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/common/common_prerequisites) for more information.
+The AWS SRA code library common prerequisite `sra-common-prerequisites-staging-s3-bucket` CloudFormation stack is launched.  See ![Common Prerequisite](https://github.com/promethium-ai/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/common/common_prerequisites) for more information.
 
 #### 6 - Amazon S3 Staging Bucket Created<!-- omit in toc -->
 
@@ -289,11 +289,11 @@ The `sra-codebuild` AWS CodeBuild project, after the AWS SRA code library has be
 
 #### 9 - AWS CloudFormation Deploys Common Prerequisite 2nd Solution Stack<!-- omit in toc -->
 
-The AWS SRA code library common prerequisite `sra-common-prerequisites-management-account-parameters` CloudFormation stack is launched.  See ![Common Prerequisite](https://github.com/aws-samples/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/common/common_prerequisites) for more information.
+The AWS SRA code library common prerequisite `sra-common-prerequisites-management-account-parameters` CloudFormation stack is launched.  See ![Common Prerequisite](https://github.com/promethium-ai/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/common/common_prerequisites) for more information.
 
 #### 10 - AWS CloudFormation Deploys Common Prerequisite 3rd Solution Stack<!-- omit in toc -->
 
-The AWS SRA code library common prerequisite `sra-common-prerequisites-main-ssm` CloudFormation stack is launched.  See ![Common Prerequisite](https://github.com/aws-samples/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/common/common_prerequisites) for more information.
+The AWS SRA code library common prerequisite `sra-common-prerequisites-main-ssm` CloudFormation stack is launched.  See ![Common Prerequisite](https://github.com/promethium-ai/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/common/common_prerequisites) for more information.
 
 #### 11 - AWS CloudFormation Deploys AWS SRA Solution Stacks<!-- omit in toc -->
 

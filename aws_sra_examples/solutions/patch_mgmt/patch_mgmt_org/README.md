@@ -182,7 +182,7 @@ Choose a Deployment Method:
 aws cloudformation deploy --template-file $PWD/aws-sra-examples/aws_sra_examples/solutions/patch_mgmt/patch_mgmt_org/templates/sra-patch_mgmt-org-main-ssm.yaml --stack-name sra-patch-org-main-ssm --capabilities CAPABILITY_NAMED_IAM
 ```
 
-Refer to the [AWS SRA Easy Setup](https://github.com/aws-samples/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/easy_setup#customizations-for-control-tower-implementation-instructions) Guide to pick the best installation type for you.
+Refer to the [AWS SRA Easy Setup](https://github.com/promethium-ai/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/easy_setup#customizations-for-control-tower-implementation-instructions) Guide to pick the best installation type for you.
 
 Choose to deploy the Patch Manager solution from within the chosen deployment type.
 

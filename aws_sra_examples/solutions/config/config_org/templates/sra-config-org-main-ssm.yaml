@@ -5,7 +5,7 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description:
   This template enables AWS Config in the AWS Organization and sets up AWS Config Aggregator in the Audit account. Resolving SSM parameters. - 'config_org' solution in the repo,
-  https://github.com/aws-samples/aws-security-reference-architecture-examples (sra-1u3sd7f8h)
+  https://github.com/promethium-ai/aws-security-reference-architecture-examples (sra-1u3sd7f8h)
 
 Metadata:
   SRA:
@@ -682,12 +682,12 @@ Resources:
         - cRegisterDelegatedAdmin
         - !Sub [
             "${pSRASolutionVersion} - This template enables an AWS Organizations Config Aggregator in AWS Organization. -
-            'config_aggregator_org' solution in the repo, https://github.com/aws-samples/aws-security-reference-architecture-examples. Delegated Admin
+            'config_aggregator_org' solution in the repo, https://github.com/promethium-ai/aws-security-reference-architecture-examples. Delegated Admin
             Solution - ${SolutionName}",
             SolutionName: !GetAtt rCommonRegisterDelegatedAdminStack.Outputs.oSRASolutionName,
           ]
         - !Sub ${pSRASolutionVersion} - This template enables an AWS Organizations Config Aggregator in AWS Organization. -
-          'config_aggregator_org' solution in the repo, https://github.com/aws-samples/aws-security-reference-architecture-examples.
+          'config_aggregator_org' solution in the repo, https://github.com/promethium-ai/aws-security-reference-architecture-examples.
       ExecutionRoleName: !Ref pStackExecutionRole
       ManagedExecution:
         Active: true
