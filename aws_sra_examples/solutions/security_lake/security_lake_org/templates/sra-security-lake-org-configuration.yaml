@@ -5,7 +5,7 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description:
   This template creates a custom resource Lambda to delegate administration and configure Security Lake within an AWS Organization - 'security_lake_org'
-  solution in the repo, https://github.com/aws-samples/aws-security-reference-architecture-examples (sra-1u3sd7f8p)
+  solution in the repo, https://github.com/promethium-ai/aws-security-reference-architecture-examples (sra-1u3sd7f8p)
 
 Metadata:
   SRA:

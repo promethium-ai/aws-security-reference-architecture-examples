@@ -5,7 +5,7 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description:
   This template deploys Customizations for Control Tower (CFCT). - 'common_cfct_setup' solution in the repo,
-  https://github.com/aws-samples/aws-security-reference-architecture-examples (sra-1ssgnse2a)
+  https://github.com/promethium-ai/aws-security-reference-architecture-examples (sra-1ssgnse2a)
 Metadata:
   SRA:
     Version: 1.2
@@ -281,7 +281,7 @@ Resources:
                 - aws sts get-caller-identity
                 - echo Copying customizations-for-aws-control-tower.template template to SRA staging bucket cloudformation template...
                 - aws s3 cp customizations-for-aws-control-tower.template s3://sra-staging-$AWS_ACCOUNT_ID-$AWS_DEFAULT_REGION/sra-common-cfct-setup/templates/
-                - git clone https://github.com/aws-samples/aws-security-reference-architecture-examples.git
+                - git clone https://github.com/promethium-ai/aws-security-reference-architecture-examples.git
             post_build:
               commands:
                 - echo Build completed on `date`

@@ -7,7 +7,7 @@ Please find key information here on AWS SRA, survey's, previous session videos, 
 - AWS SRA Design Guidance: 
 	- https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/welcome.html
 - AWS SRA Code Library: 
-	- https://github.com/aws-samples/aws-security-reference-architecture-examples
+	- https://github.com/promethium-ai/aws-security-reference-architecture-examples
 
 ## Surveys
 

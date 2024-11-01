@@ -5,7 +5,7 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description:
   This template creates an event rule in the home region of each member account to send config recorder start events to the home region of the management account. - 'securityhub_org' solution in the repo,
-  https://github.com/aws-samples/aws-security-reference-architecture-examples (sra-1ssgnse6b)
+  https://github.com/promethium-ai/aws-security-reference-architecture-examples (sra-1ssgnse6b)
 Metadata:
   SRA:
     Version: 1.0

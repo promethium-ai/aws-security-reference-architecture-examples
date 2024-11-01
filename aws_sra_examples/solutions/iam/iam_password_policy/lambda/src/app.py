@@ -13,7 +13,7 @@ ResourceProperties:
 
 Version: 1.1
 
-'iam_password_policy' solution in the repo, https://github.com/aws-samples/aws-security-reference-architecture-examples
+'iam_password_policy' solution in the repo, https://github.com/promethium-ai/aws-security-reference-architecture-examples
 
 Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 SPDX-License-Identifier: MIT-0

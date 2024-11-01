@@ -13,7 +13,7 @@ a new issue! If your question was already asked, but the answer does not satisfy
 your curiosity, prefer re-opening the existing issue to ask for further
 clarification, instead of filing a new issue.
 
-[1]: https://github.com/aws-samples/aws-security-reference-architecture-examples/issues?utf8=✓&q=is%3Aissue+label%3Aguidance
+[1]: https://github.com/promethium-ai/aws-security-reference-architecture-examples/issues?utf8=✓&q=is%3Aissue+label%3Aguidance
 -->
 
 ### The Question

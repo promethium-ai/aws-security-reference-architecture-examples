@@ -65,7 +65,7 @@ All notable changes to this project will be documented in this file.
 
 ### Changed<!-- omit in toc -->
 
-- Updated [Inspector](https://github.com/aws-samples/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/inspector/inspector_org) solution to allow creation of AWSServiceRoleForAmazonInspector2Agentless SLR.
+- Updated [Inspector](https://github.com/promethium-ai/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/inspector/inspector_org) solution to allow creation of AWSServiceRoleForAmazonInspector2Agentless SLR.
 - Updated documentation for [EC2 Default EBS Encryption](aws_sra_examples/solutions/ec2/ec2_default_ebs_encryption) solution.
 
 ## 2024-08-22
@@ -79,7 +79,7 @@ All notable changes to this project will be documented in this file.
 ### Fixed<!-- omit in toc -->
 
 - Fixed [Terraform edition](aws_sra_examples/terraform) Workspace creation on suspended accounts.
-- Fixed [Firewall Manager](https://github.com/aws-samples/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/firewall_manager/firewall_manager_org) solution deployment issue (invalid operation error).
+- Fixed [Firewall Manager](https://github.com/promethium-ai/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/firewall_manager/firewall_manager_org) solution deployment issue (invalid operation error).
 - Fixed [GuardDuty terraform](aws_sra_examples/terraform/solutions/guard_duty) module installation failure.
 
 ## 2024-06-24
@@ -116,11 +116,11 @@ All notable changes to this project will be documented in this file.
 
 ## 2023-10-23
 
-Updated [Firewall Manager](https://github.com/aws-samples/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/firewall_manager/firewall_manager_org) solution to make AWS Control Tower optional.
+Updated [Firewall Manager](https://github.com/promethium-ai/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/firewall_manager/firewall_manager_org) solution to make AWS Control Tower optional.
 
 ## 2023-10-10
 
-- Updated [Inspector](https://github.com/aws-samples/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/inspector/inspector_org) solution to enable automatic lambda code scan.
+- Updated [Inspector](https://github.com/promethium-ai/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/inspector/inspector_org) solution to enable automatic lambda code scan.
 
 ## 2023-09-27
 
@@ -137,17 +137,17 @@ Updated [Firewall Manager](https://github.com/aws-samples/aws-security-reference
 
 ## 2023-08-07
 
-- Updated [Common Prerequisites](https://github.com/aws-samples/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/common/common_prerequisites) solution to make AWS Control Tower optional.
-- Updated [Security Hub](https://github.com/aws-samples/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/securityhub/securityhub_org) solution to make AWS Control Tower optional.
-- Updated [Inspector](https://github.com/aws-samples/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/inspector/inspector_org) solution to make AWS Control Tower optional.
-- Updated [GuardDuty](https://github.com/aws-samples/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/guardduty/guardduty_org) solution to make AWS Control Tower optional.
-- Updated [Easy Setup](https://github.com/aws-samples/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/easy_setup) to support solution updates for making AWS Control Tower optional.
-- Updated [CloudTrail](https://github.com/aws-samples/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/cloudtrail/cloudtrail_org) solution to make AWS Control Tower optional.
-- Updated [IAM Access Analyzer](https://github.com/aws-samples/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/iam/iam_access_analyzer) solution to make AWS Control Tower optional.
+- Updated [Common Prerequisites](https://github.com/promethium-ai/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/common/common_prerequisites) solution to make AWS Control Tower optional.
+- Updated [Security Hub](https://github.com/promethium-ai/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/securityhub/securityhub_org) solution to make AWS Control Tower optional.
+- Updated [Inspector](https://github.com/promethium-ai/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/inspector/inspector_org) solution to make AWS Control Tower optional.
+- Updated [GuardDuty](https://github.com/promethium-ai/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/guardduty/guardduty_org) solution to make AWS Control Tower optional.
+- Updated [Easy Setup](https://github.com/promethium-ai/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/easy_setup) to support solution updates for making AWS Control Tower optional.
+- Updated [CloudTrail](https://github.com/promethium-ai/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/cloudtrail/cloudtrail_org) solution to make AWS Control Tower optional.
+- Updated [IAM Access Analyzer](https://github.com/promethium-ai/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/iam/iam_access_analyzer) solution to make AWS Control Tower optional.
 
 ## 2023-07-07
 
-- Updated [CloudTrail](https://github.com/aws-samples/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/cloudtrail/cloudtrail_org) solution to enable delegated administrator.
+- Updated [CloudTrail](https://github.com/promethium-ai/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/cloudtrail/cloudtrail_org) solution to enable delegated administrator.
 
 ## 2023-07-01
 
@@ -169,7 +169,7 @@ Updated [Firewall Manager](https://github.com/aws-samples/aws-security-reference
 ### Changed<!-- omit in toc -->
 
 - Added GuardDuty EKS, Malware, RDS, and Lambda protections [GuardDuty Organization](aws_sra_examples/solutions/guardduty/guardduty_org)
-- Added fix to support deploying to more than 50 accounts. https://github.com/aws-samples/aws-security-reference-architecture-examples/issues/139. UpdateMemberDetectors and CreateMembers parameters accountIds and accountDetails support a max number
+- Added fix to support deploying to more than 50 accounts. https://github.com/promethium-ai/aws-security-reference-architecture-examples/issues/139. UpdateMemberDetectors and CreateMembers parameters accountIds and accountDetails support a max number
   of 50 items
 
 ## 2023-05-12
@@ -345,7 +345,7 @@ Updated [Firewall Manager](https://github.com/aws-samples/aws-security-reference
 ### Changed<!-- omit in toc -->
 
 - Updated the [CFCT-DEPLOYMENT-INSTRUCTIONS.md](aws_sra_examples/docs/CFCT-DEPLOYMENT-INSTRUCTIONS.md) document to remove references to the common_cfct_setup solution.
-- [CloudTrail](https://github.com/aws-samples/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/cloudtrail/cloudtrail_org) solution
+- [CloudTrail](https://github.com/promethium-ai/aws-security-reference-architecture-examples/tree/main/aws_sra_examples/solutions/cloudtrail/cloudtrail_org) solution
   - Added main templates to simplify deployments via nested stacks.
   - Updated documentation, diagram, and templates to be consistent with the rest of the solutions.
   - Added integration with Secrets Manager to share CloudFormation output values with the management account.
@@ -424,7 +424,7 @@ Updated [Firewall Manager](https://github.com/aws-samples/aws-security-reference
 
 ### Changed<!-- omit in toc -->
 
-- Updates to the [stage_solution.sh](https://github.com/aws-samples/aws-security-reference-architecture-examples/blob/main/aws_sra_examples/utils/packaging_scripts/stage_solution.sh) packaging script to support better error logging and include
+- Updates to the [stage_solution.sh](https://github.com/promethium-ai/aws-security-reference-architecture-examples/blob/main/aws_sra_examples/utils/packaging_scripts/stage_solution.sh) packaging script to support better error logging and include
   packaging of `common` solutions.
 - In [Common Prerequisites](aws_sra_examples/solutions/common/common_prerequisites) and [AWS Config Management Account](aws_sra_examples/solutions/config/config_management_account) solutions:
   - Updates to logging to include tracebacks for when exceptions are raised.

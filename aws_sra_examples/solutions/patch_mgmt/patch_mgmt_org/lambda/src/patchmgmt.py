@@ -2,7 +2,7 @@
 
 Version: 1.0
 
-'patch_mgmt' solution in the repo, https://github.com/aws-samples/aws-security-reference-architecture-examples
+'patch_mgmt' solution in the repo, https://github.com/promethium-ai/aws-security-reference-architecture-examples
 
 Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 SPDX-License-Identifier: MIT-0
